@@ -104,7 +104,14 @@
     border: 1px solid var(--border-color);
     border-radius: 4px;
   }
-  
+
+  .partners img {
+    transition: transform 0.3s ease; 
+  }
+
+  .partners img:hover {
+    transform: scale(1.1);
+  }
   /* 移动端调整 */
   @media (max-width: 768px) {
     .sidebar {

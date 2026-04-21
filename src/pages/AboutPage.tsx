@@ -15,7 +15,7 @@ const AboutPage: React.FC = () => {
           <p>👋 你好，我是张三，一名热爱技术的全栈开发工程师。</p>
           <p>拥有5年一线大厂经验，目前专注于前端工程化、性能优化和React生态。</p>
           <p>这个博客记录我的学习心得、实战技巧，希望能帮助到同样热爱前端的你。</p>
-          <p>📧 联系我：zhang.san@example.com</p>
+          <p>📧 联系我：xushenwei@example.com</p>
         </div>
       </div>
     </>

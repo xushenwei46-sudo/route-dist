@@ -60,14 +60,14 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) => {
             alt="徐慎为"
             className={styles.avatar}
           />
-          <p>lyc，全栈开发工程师，热爱分享技术。拥有5年一线大厂经验，目前专注于前端工程化与性能优化。</p>
+          <p>慎为，全栈开发工程师，热爱分享技术。拥有5年一线大厂经验，目前专注于前端工程化与性能优化。</p>
         </div>
       </section>
 
       {/* 在某个位置显示当前时间，作为演示 */}
       <section className={styles.widget}>
         <h3>当前时间</h3>
-        <p>{currentTime.toLocaleTimeString()}</p>
+        <p>{currentTime.toLocaleString()}</p>
       </section>
 
 
@@ -100,8 +100,12 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) => {
       <section className={styles.widget}>
         <h3>合作伙伴</h3>
         <div className={styles.partners}>
-          <img src={pzPng} alt="Partner 1" />
-          <img src={baiduPng} alt="Partner 2" />
+          <a href="https://www.4399.com/" target="_blank" rel="noopener noreferrer">
+            <img src={pzPng} alt="Partner 1" />
+          </a>
+          <a href="https://www.cadillac.com.cn/car/xt5new" target="_blank" rel="noopener noreferrer">
+            <img src={baiduPng} alt="Partner 2" />
+          </a>
         </div>
       </section>
     </aside>
